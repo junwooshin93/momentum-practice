@@ -1,0 +1,29 @@
+@import "reset.css";
+
+/* css */
+@import "css/zeitangaben.css";
+@import "css/begruessen.css";
+@import "css/liste.css";
+@import "css/wetter.css";
+
+.basic-box {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+}
+
+.todo-box {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 200px;
+}
+
+body {
+    background-color: black;
+    display: flex;
+    justify-content: flex-end;
+}

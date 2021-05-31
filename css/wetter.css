@@ -1,0 +1,38 @@
+.wetter-box {
+    width: 30%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.css-wetter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 10px 0px white;
+    padding: 20px;
+}
+
+.css-wetter__grad {
+    font-size: 50px;
+    font-weight: 600;
+    margin-top: 10px;
+    color: white;
+}
+
+.css-wetter__grad-minmax {
+    margin-top: 10px;
+    font-size: 18px;
+    color: lightslategrey;
+}
+
+.css-wetter__stadt {
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 25px;
+    color: lightslategrey;
+    width: 100%;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+}

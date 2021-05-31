@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <div class="wetter-box">
+            <div class="js-wetter css-wetter">
+                <span class="js-wetter__stadt css-wetter__stadt">Seoul</span>
+                <span class="js-wetter__grad-minmax css-wetter__grad-minmax">
+                    ? ~ ? Grad
+                </span>
+                <span class="js-wetter__grad css-wetter__grad">25</span>
+            </div>
+        </div>
+        <div class="basic-box">
+            <div class="css-zeitangaben">
+                <span class="js-uhr css-uhr">00:00</span>
+            </div>
+            <div class="css-begruessen">
+                <span class="js-begruessen css-begruessen__title">Hallo!</span>
+                <form class="js-begruessen__form">
+                    <input
+                        type="text"
+                        class="js-begruessen__text css-begruessen__text"
+                        placeholder="Schreiben Sie hier deinen Namen"
+                    />
+                </form>
+            </div>
+            <div class="css-liste__form-box">
+                <form class="css-liste__form js-liste__form">
+                    <input
+                        type="text"
+                        class="js-liste__form__text css-liste__form__text"
+                        placeholder="Schreiben Sie hier deinen Plan heute"
+                    />
+                </form>
+            </div>
+        </div>
+        <div class="todo-box">
+            <div class="css-liste">
+                <span class="css-liste__title">Heute</span>
+                <ul class="css-liste__liste js-liste__liste"></ul>
+            </div>
+        </div>
+
+        <script src="js/uhr.js"></script>
+        <script src="js/begruessen.js"></script>
+        <script src="js/todo-list.js"></script>
+        <script src="js/wetter.js"></script>
+    </body>
+</html>
