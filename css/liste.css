@@ -44,7 +44,8 @@
 .css-liste__todos:hover {
     border-bottom: none;
     box-shadow: 0px 0px 10px 0px white;
-    background-color: rgba(50, 50, 50, 1);
+    background-color: white;
+    color: black;
 }
 
 .css-liste__form-box {
@@ -61,19 +62,17 @@
     box-shadow: 0px 0px 10px 0px white;
     border-radius: 10px;
     transition: all 0.2s ease-in-out;
-    color: white;
 }
 
 .css-liste__form__text:hover {
-    box-shadow: 0px 0px 15px 0px red;
-    background-color: rgba(255, 0, 0, 0.3);
+    box-shadow: 0px 0px 20px 0px white;
+    background-color: rgba(255, 255, 255, 0.1);
     outline: none;
 }
 
 .css-liste__form__text:focus {
-    box-shadow: 0px 0px 15px 0px red;
-    background-color: rgba(255, 0, 0, 0.3);
-    outline: none;
+    box-shadow: 0px 0px 20px 0px white;
+    background-color: white;
     padding: 15px 10px;
     outline: none;
 }
